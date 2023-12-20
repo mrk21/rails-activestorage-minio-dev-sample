@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<div id="<%= dom_id @user %>">
+  <p><b>Name:</b> <%= @user.name %></p>
+  <p><b>Avatar:</b> <span class="user-avatar"><%= link_to(@user.avatar){ image_tag(@user.avatar) } if @user.avatar.attached? %></span></p>
+</div>
+
+<div>
+  <%= link_to "Edit this user", edit_user_path(@user) %> |
+  <%= link_to "Back to users", users_path %>
+
+  <%= button_to "Destroy this user", @user, method: :delete %>
+</div>
