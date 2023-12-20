@@ -27,7 +27,7 @@ services:
         target: /usr/local/bundle
       - type: volume
         source: rails_log
-        target: /app/tmp/log
+        target: /app/log
       - type: volume
         source: rails_cache
         target: /app/tmp/cache
