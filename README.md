@@ -1,5 +1,7 @@
 # Rails ActiveStorage MinIO dev sample
 
+[![rails-activestorage-minio-dev-Page-2.drawio.png](docs/rails-activestorage-minio-dev-Page-2.drawio.png)](docs/rails-activestorage-minio-dev-Page-2.drawio.png)
+
 ## Dependencies
 
 - Ruby: 3.2.2

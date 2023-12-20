@@ -33,3 +33,6 @@
 # Ignore .envrc
 .envrc
 
+# Ignore other files
+.DS_Store
+
